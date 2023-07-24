@@ -1,0 +1,22 @@
+@import url('header.css');
+@import url('var.css');
+@import url('advantages.css');
+@import url('contacts.css');
+@import url('footer.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+

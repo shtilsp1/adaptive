@@ -1,0 +1,172 @@
+header {
+    padding-top: 40px;
+    background-image: url('../img/header-background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.phone-logo {
+    display: none;
+    cursor: pointer;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone p {
+    font-size: 23.85px;
+    margin-bottom: 2.85px;
+}
+
+.phone a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-size: 16px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 35px;
+}
+
+.header-title-text h1 {
+    font-size: 52px;
+    font-weight: 900;
+    text-align: center;
+    word-break: break-all;
+    width: 990px;
+}
+
+.header-title-text h2 {
+    font-size: 22px;
+    line-height: 140.06%;
+    text-align: center;
+    width: 960px;
+    margin-bottom: 90px;
+    word-break: break-all;
+}
+
+.header-title-btn {
+    margin-bottom: 120px;
+    background-color: var(--main-color);
+    padding: 12px 48px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Roboto', serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0px 4px 25px 0px rgba(21, 169, 203, 0.30);
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+    }
+    
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .number {
+        font-size: 21px;
+    }
+    
+    .phone a {
+        font-size: 13px;
+    }
+
+    .header-title-text {
+        row-gap: 27.57px;
+    }
+
+    .header-title-text h1 {
+        font-size: 40px;
+        width: 780px;
+    }
+    
+    .header-title-text h2 {
+        font-size: 18px;
+        margin-bottom: 60px;
+        width: 754px;
+    }
+
+    .header-title-btn {
+        margin-bottom: 70px;
+        padding: 11px 49px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        background-position: left;
+        background-size: cover;
+    }
+    
+    .container {
+        max-width: 289.92px;
+    }
+
+    
+    .logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .phone {
+        display: none;  
+    }
+
+    .phone-logo {
+        display: block;
+    }
+
+    .header-title-text {
+        row-gap: 23px;
+    }
+
+    .header-title-text h1 {
+        font-size: 20px;
+        width: 290px;
+    }
+    
+    .header-title-text h2 {
+        font-size: 14px;
+        margin-bottom: 54px;
+        width: 290px;
+    }
+
+    .header-title-btn {
+        margin-bottom: 65px;
+        padding: 9px 28.28px;
+        font-size: 16px;
+    }
+}
