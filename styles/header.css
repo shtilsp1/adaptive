@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 120px;
+    margin-bottom: 115px;
 }
 
 .phone-logo {
@@ -28,6 +28,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .phone p {
@@ -58,7 +59,6 @@ header {
     font-size: 52px;
     font-weight: 900;
     text-align: center;
-    word-break: break-all;
     width: 990px;
 }
 
@@ -66,15 +66,15 @@ header {
     font-size: 22px;
     line-height: 140.06%;
     text-align: center;
+    font-weight: 400;
     width: 960px;
     margin-bottom: 90px;
-    word-break: break-all;
 }
 
 .header-title-btn {
     margin-bottom: 120px;
     background-color: var(--main-color);
-    padding: 12px 48px;
+    padding: 11px 48px;
     border: none;
     border-radius: 50px;
     font-family: 'Roboto', serif;
